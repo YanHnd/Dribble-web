@@ -1,6 +1,6 @@
 {
-  "name": "dribble-1",
   "homepage": "https://yanhnd.github.io/Dribble-web",
+  "name": "dribble-1",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
