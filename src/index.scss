@@ -1,0 +1,61 @@
+@font-face {
+  font-family: "Wes FY";
+  src: url("//db.onlinewebfonts.com/t/58899a8fb3f1351f756cedcc5420aabc.eot");
+  src: url("//db.onlinewebfonts.com/t/58899a8fb3f1351f756cedcc5420aabc.eot?#iefix")
+      format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/58899a8fb3f1351f756cedcc5420aabc.woff2")
+      format("woff2"),
+    url("//db.onlinewebfonts.com/t/58899a8fb3f1351f756cedcc5420aabc.woff")
+      format("woff"),
+    url("//db.onlinewebfonts.com/t/58899a8fb3f1351f756cedcc5420aabc.ttf")
+      format("truetype"),
+    url("//db.onlinewebfonts.com/t/58899a8fb3f1351f756cedcc5420aabc.svg#Wes FY")
+      format("svg");
+}
+//breakpoints
+$xs: 375px;
+$sm: 576px;
+$md: 768px;
+$lg: 992px;
+$xl: 1200px;
+$xxl: 1400px;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+@media (max-width: $md) {
+  html {
+    font-size: 14px;
+  }
+}
+@media (max-width: $sm) {
+  html {
+    font-size: 12px;
+  }
+}
+body {
+  margin: 0;
+  // height: 100%;
+  // font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  //   'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  //   sans-serif;
+  font-family: "Wes FY";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+ul,
+li {
+  list-style: none;
+  text-decoration: none;
+  outline: none;
+}
+a {
+  text-decoration: none;
+  outline: none;
+}
